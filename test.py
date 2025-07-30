@@ -6,7 +6,7 @@ import modal
 
 # Define the container image with all necessary dependencies
 # Updated diffusers commit SHA to ensure compatibility with FLUX.1-dev
-diffusers_commit_sha = "2e34a21231f2510b14a275b22b07e77405232a51"
+diffusers_commit_sha = "main"
 
 image = (
     modal.Image.from_registry(
